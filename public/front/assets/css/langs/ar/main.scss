@@ -1,0 +1,63 @@
+.help-block {
+	font-weight: 400;
+	font-size: 90%;
+	opacity: .9;
+}
+
+#login-form {
+	font-size: 110%;
+
+	form {
+		direction: rtl;
+
+		.access-accounts {
+			font-family: 'tahoma';
+			font-weight: 500;
+			text-align: left;
+		}
+	}
+	.message {
+		float: left;
+	}
+}
+
+#register-form {
+	font-size: 110%;
+
+	form {
+		direction: rtl;
+	}
+
+	.message {
+		float: left;
+	}
+}
+
+#navbar-1 {
+	.navbar-right {
+		position: absolute;
+		left: 40px;
+
+		.dropdown-menu li {
+			//text-align: right;
+			//direction: ltr;
+		}
+	}
+}
+
+#products-view {
+	.content {
+		#products-container {
+			.panel {
+				.edge-corner {
+					transform: rotate(90deg);
+				}
+			}
+		}
+	}
+}
+
+#footer {
+	font-family: 'tahoma';
+	font-weight: 100;
+}

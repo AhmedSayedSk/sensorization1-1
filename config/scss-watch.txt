@@ -1,0 +1,10 @@
+// Copy this code to cmd / terminal
+// open from /public
+
+sass --watch \
+assets/css/main.scss:assets/css/main.css \
+assets/css/langs/ar/main.scss:assets/css/langs/ar/main.css \
+back/assets/css/main.scss:back/assets/css/main.css \
+back/assets/css/langs/ar/main.scss:back/assets/css/langs/ar/main.css \
+front/assets/css/main.scss:front/assets/css/main.css \
+front/assets/css/langs/ar/main.scss:front/assets/css/langs/ar/main.css

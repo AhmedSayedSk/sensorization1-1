@@ -1,0 +1,39 @@
+#product-show {
+	//background-color: nth($bgc1, 1);
+	margin: 15px;
+	padding: 0;
+
+	.p-images {
+		.carousel-inner {
+			background-color: #fff;
+			img {
+				margin: 0 auto;
+			}
+		}
+	}
+
+	#product-panel {
+		.p-name {
+			font-size: 24px;
+			line-height: 30px;
+		}
+
+		.p-price {
+			font-size: 17px;
+		}
+
+		.payments-td {
+			//padding: 0;
+			border: 0 solid rgba(0,0,0,0);
+		}
+
+		.payments-table {
+			margin: 0;
+		}
+
+		.glyphicon-star {
+			color: #FF8F00;
+		}
+	}
+}
+	

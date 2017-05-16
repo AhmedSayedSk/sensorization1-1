@@ -1,0 +1,22 @@
+// Pull footer to bottom of document/window
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+// set element vertically and horizontally with centering
+.vcenter {
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+// loop to detect opacities
+$opacity: opc !default;
+@for $i from 1 through 9 {
+	.#{$opacity}-#{$i} {
+		opacity: $i / 10;
+	}
+}
+  

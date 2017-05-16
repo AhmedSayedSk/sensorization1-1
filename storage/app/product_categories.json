@@ -1,0 +1,72 @@
+{
+	"Automotive & Powersports": {
+		"1": "Parts",
+		"2": "Tools",
+		"3": "Equipment",
+		"Accessories": {
+			"1": "sub 1",
+			"2": "sub 2",
+			"3": "sub 3"
+		}
+	},
+	"Baby Products": {
+		"1": "Nursery",
+		"2": "Feeding",
+		"3": "Gear"
+	},
+	"Beauty": {
+		"1": "Fragrance",
+		"2": "Personal Care, Skincare & Makeup",
+		"3": "Hair"
+	},
+	"Books": "Books",
+	"Camera & Photo": {
+		"1": "Cameras",
+		"2": "Telescopes"
+	},
+	"Phones": "Phones",
+	"Clothing & Accessories": {
+		"1": "Outerwear",
+		"2": "Athletic Wear",
+		"3": "Innerwear",
+		"4": "Belts",
+		"5": "Wallets"
+	},
+	"Collectible Coins": {
+		"1": "Gold Coins",
+		"2": "Silver Coins",
+		"3": "Platinum Coins"
+	},
+	"Electronics (Accessories)": {
+		"1": "Audio",
+		"2": "Video",
+		"3": "Computer & Laptop",
+		"4": "Office Accessories"
+	},
+	"Electronics (Consumer)": {
+		"1": "TVs",
+		"2": "CD Players",
+		"3": "Car Audio",
+		"4": "GPS"
+	},
+	"Fine Art": {
+		"1": "Paintings",
+		"2": "Drawings",
+		"3": "Two-Dimensional",
+		"4": "Prints & Photographs"
+	},
+	"Grocery & Gourmet Food": {
+		"1": "Beverages",
+		"2": "Breakfast",
+		"3": "Desserts & Chocolate",
+		"4": "Household Supplies, Snacks & Canned Goods",
+		"5": "Seafood & Meat"
+	},
+	"Handmade": "Handmade",
+	"Health & Personal Care": {
+		"1": "First Aid",
+		"2": "Nutrition",
+		"3": "Beauty"
+	},
+	"Watches": "Watches"
+}

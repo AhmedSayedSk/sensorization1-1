@@ -1,0 +1,29 @@
+#products-view-page {
+	.container-fluid {
+		padding: 0;
+
+		table.ps-view {
+			background-color: #FCFCFC;
+			border-bottom: 2px solid rgba(45,45,45,.1);
+			margin: 0;
+
+			td.image {
+				padding: 5px;
+				vertical-align: middle;
+				img {
+					max-width: 120px;
+					max-height: 120px;
+				}
+			}
+
+			td.options {
+				.live-status, .carousel-status {
+					//@extend %extreme-live-status-btn;
+				}
+				button, a {
+					margin-bottom: 5px;
+				}
+			}
+		}
+	}
+}

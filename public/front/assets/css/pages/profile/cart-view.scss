@@ -1,0 +1,18 @@
+#cart-view {
+	.content {
+		table {
+			border: 2px solid #CCC;
+			background-color: nth($bgc1, 1);
+		}
+
+		.total-price {
+			font-size: 20px;
+		}
+
+		.extra {
+			form.on-delivery {
+				display: inline-block;
+			}
+		}
+	}	
+}

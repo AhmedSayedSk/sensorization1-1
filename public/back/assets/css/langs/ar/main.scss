@@ -1,0 +1,60 @@
+#admins-roles-form {
+	.checkbox label b {
+		direction: ltr;
+		display: inline-block;
+	}	
+}
+
+#navbar-1 {
+	.navbar-right {
+		position: absolute;
+		left: 40px;
+	}
+}
+
+#content {
+	.panel {
+		.panel-heading {
+			> a, > button {
+				float: left !important;
+			}
+		}
+	}
+}
+
+.tab-content {
+	.tab-pane {
+		button.back, button.continue {
+			text-align: left;
+			display: inline-block;
+
+			span[class^="icomoon-"]:not(.flipped) {
+				display: inline-block;
+				transform: scaleX(-1) !important;
+			    -moz-transform: scaleX(-1) !important;
+			    -webkit-transform: scaleX(-1) !important;
+			    -ms-transform: scaleX(-1) !important;
+			}
+		}
+	}
+}
+
+#products-view-page {
+	table {
+		.live-time {
+			text-align: right;
+			direction: ltr;
+		}
+	}
+}
+
+#product-show-page {
+	.rent-time {
+		direction: ltr;
+		display: inline-block;
+	}
+}
+
+#products-categories-view-page {
+	direction: ltr;
+}

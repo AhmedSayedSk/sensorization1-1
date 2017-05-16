@@ -1,0 +1,100 @@
+#product-create-page {
+	.tabs-wrap {
+		background-color: #fff;
+		padding: 0;
+
+		.nav {
+			li {
+				&.active {
+					a {
+						background-color: #FCFCFC;
+					}
+				}
+				a {
+					border-radius: 0;
+					margin: 0;
+					padding: 5px 15px;
+					padding-left: 10px;
+					
+					span[class^="icon-"] {
+						font-size: 30px;
+						color: nth($tealColor, 5);
+						vertical-align: middle;
+					}
+
+					:hover {
+						outline: 0;
+					}
+				}
+			}
+		}
+
+		#create-product {
+			background-color: #FCFCFC;
+			border: 1px solid rgba(45,45,45,.1);
+			border-top: 0;
+
+			.tab-content {
+				.tab-pane {
+					padding: 10px;
+					//padding-bottom: 0;
+					background-color: #FCFCFC;
+
+					&.categories {
+						.p-cat {
+							margin-bottom: 5px;
+						}
+						.p-cat + .p-cat {
+							display: none;
+						}
+					}
+
+					&#product-images {
+						.droping {
+							position: relative;
+
+							form {
+								border: 2px dashed nth($tealColor, 5) !important;
+
+								&:hover {
+									background-color: #FAFAFA;
+								}
+							}
+
+							.dz-message {
+								color: nth($tealColor, 5);
+							}
+
+							.help1 {
+								position: absolute;
+								right: 10px;
+								bottom: 5px;
+								font-size: 18px;
+								//background-color: #BBB;
+							}
+
+							.dz-set-primary.active {
+								font-weight: bold;
+							}
+						}
+					}
+
+					&#tags {
+						.well {
+							.btn {
+								border: 2px solid rgba(45,45,45,.2);
+							}
+						}
+					}
+				}
+			}
+
+			span[class^="icomoon-"] {
+				font-size: 14px;
+				//background-color: red;
+				//color: nth($tealColor, 5);
+				vertical-align: middle;
+			}
+		}
+	}
+}

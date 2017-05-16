@@ -1,0 +1,29 @@
+body {
+	//font-family: 'tahoma';
+}
+
+* {
+	//font-weight: 700;
+}
+
+input {
+	font-family: 'tahoma';
+	font-weight: 500;
+}
+
+.help-block {
+	font-weight: 400;
+	font-size: 90%;
+	opacity: .9;
+}
+
+.pull-right {
+	float: left !important;
+}
+
+table.sortable {
+	.sign {
+		right: initial !important;
+		left: 5px;
+	}
+}

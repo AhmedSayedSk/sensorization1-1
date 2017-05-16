@@ -1,0 +1,44 @@
+.static-tags-btn {
+	//background-color: #337ab7;
+	border: 2px solid #337ab7 !important;
+	outline-color: #337ab7 !important;
+}
+
+.static-tags-btn:focus {
+	border: 2px solid #337ab7 !important;
+	outline-color: #337ab7 !important;
+}
+
+#Modal {
+	.content {
+		&#append-new-tag {
+			.tags-container {
+				background-color: #EEE;
+				padding: 7px;
+
+				> span {
+					background-color: #FEFEFE;
+					padding: 3px 5px;
+					box-shadow: 1px 1px 3px rgba(0,0,0,.2);
+					border-radius: 3px;
+					margin: 5px;
+					line-height: 27px;
+				}
+			}
+		}
+		
+		.errors-section, .success-message {
+			display: none;
+		}
+	}	
+}
+
+.col-flip-180 {
+	display: inline-block;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

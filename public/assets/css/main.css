@@ -1,0 +1,145 @@
+.btn, input, .input-group-addon, textarea, select,
+.alert, .well, .list-group, a, .panel, .panel-heading, .panel-body {
+  border-radius: 0 !important; }
+
+table form {
+  display: inline !important; }
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+.centering-element {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%); }
+
+.vcenter {
+  float: none;
+  display: inline-block;
+  vertical-align: middle; }
+
+.opc-1 {
+  opacity: 0.1; }
+
+.opc-2 {
+  opacity: 0.2; }
+
+.opc-3 {
+  opacity: 0.3; }
+
+.opc-4 {
+  opacity: 0.4; }
+
+.opc-5 {
+  opacity: 0.5; }
+
+.opc-6 {
+  opacity: 0.6; }
+
+.opc-7 {
+  opacity: 0.7; }
+
+.opc-8 {
+  opacity: 0.8; }
+
+.opc-9 {
+  opacity: 0.9; }
+
+.opc-100 {
+  width: 100 px; }
+
+.opc-101 {
+  width: 101 px; }
+
+.opc-102 {
+  width: 102 px; }
+
+.opc-103 {
+  width: 103 px; }
+
+.opc-104 {
+  width: 104 px; }
+
+.opc-105 {
+  width: 105 px; }
+
+.opc-106 {
+  width: 106 px; }
+
+.opc-107 {
+  width: 107 px; }
+
+.opc-108 {
+  width: 108 px; }
+
+.opc-109 {
+  width: 109 px; }
+
+.opc-110 {
+  width: 110 px; }
+
+.dz-set-primary {
+  display: block;
+  text-align: center;
+  cursor: pointer !important; }
+
+@media only screen and (max-width: 800px) {
+  /* Force table to not be like tables anymore */
+  #response-table table,
+  #response-table thead,
+  #response-table tbody,
+  #response-table th,
+  #response-table td,
+  #response-table tr {
+    display: block; }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  #response-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; }
+
+  #response-table tr {
+    border: 1px solid #ccc; }
+
+  #response-table td {
+    border: none;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    padding-left: 50%;
+    white-space: normal;
+    text-align: left; }
+    #response-table td:before {
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      padding-right: 10px;
+      white-space: nowrap;
+      max-width: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: left;
+      font-weight: bold;
+      content: attr(data-title); } }
+#navbar-1 {
+  padding: 0 15px;
+  border-radius: 0; }
+  #navbar-1 .navbar-brand * {
+    display: inline; }
+
+#footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0; }
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
